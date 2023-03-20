@@ -1,0 +1,21 @@
+/**Color de el Footer de abajo**/
+footer{
+    background-color: rgb(172, 83, 255);
+}
+
+footer p{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content{
+    padding: 40px;
+    
+}
+
+.login{
+    padding: 20px;
+}
+
+

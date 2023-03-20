@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noWallapop</title>
+
+<!--Bootstrap y CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<!--Practica de Copia de Wallapop-->
+<body>
+    <!--Inicio de Sesion para Usuarios-->
+    <nav class="navbar bg-body-tertiary" >
+        <div class="container-fluid" style="background-color: rgb(172, 83, 255);">
+          <span class="navbar-brand mb-0 h1" style="color:white; padding: 15px; font-size: 30px;" >noWallapop</span>
+          <div class="botones">
+          <a href="/vista/login.html" id="signup"><button type="button" class="btn btn-primary btn-lg">Iniciar Sesión</button></a>
+          <a id="logout"><button type="button" class="btn btn-primary btn-lg">Cerrar Sesion</button></a>
+        </div>
+        </div>
+    </nav>
+    <!--Boton de Reenvio para Publicar-->
+<div class="post"><center>
+    <h4>¿Tienes algun producto que quieres vender o comprar?</h4>
+   <a href="vista/post.html" id="post"><button type="button" class="btn btn-primary btn-lg">Publicar aquí</button></a> 
+   <a href="vista/signup.html" id="signup"><button type="button" class="btn btn-primary btn-lg">Registrate</button></a> 
+</center></div>
+    <!--Informacion al Principio de la página-->
+<div class="content">
+    <hr><p>No precisamente la misma página, pero intentamos ofrecer lo mismo</p>
+    <h3>Bievenido de vuelta, ¿Que deseas hacer hoy?</h3>
+    <h4>Productos en venta recientes en tu zona: </h4>
+</div>
+
+
+<!--Contenido dentro de la Pagina-->
+<div class="grid">
+    <section class= "posts-list"> </section>
+
+    <script  type="module" src="index.js"></script>
+</div>
+</body>
+
+
+<!--Footer de la página-->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">🍔 noWallapop, hecho con algo de Bootstrap</p>
+    </footer>
+
+  </div>
+</html>

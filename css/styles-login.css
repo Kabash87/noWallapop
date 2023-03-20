@@ -1,0 +1,28 @@
+text{
+    border: solid;
+}
+
+.login{
+    padding: 40px;
+}
+
+.content{
+    padding: 40px;
+}
+
+/**Color de el Footer de abajo**/
+footer{
+    background-color: rgb(172, 83, 255);
+}
+
+footer p{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/**Pading del registro*/
+.registro{
+    padding: 20px;
+}
+

@@ -1,0 +1,41 @@
+/*Algunos ajustes de CSS dentro de la página*/
+
+body{
+    background-color: #DDDDDD;
+}
+
+.content{
+    margin: 15px;
+    font-size: 17px;
+}
+
+/**Espacios entre publicaciones**/
+
+.posts-list{
+    display: grid;
+    grid-template-columns: 10px 10px 10px 190px;
+    margin: 0px; 
+    justify-content:space-around;
+}
+
+/**Color de el Footer de abajo**/
+footer{
+    background-color: rgb(172, 83, 255);
+}
+
+footer p{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/**Color del espacio de publicaciones**/
+.post{
+    padding:60px;
+    background-color: turquoise;
+}
+
+
+.text-center.hide{
+    display: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <!--Bootstrap y CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles-login.css">
+<!--Inicio de Sesion para Usuarios-->
+</head>
+<body >
+     <!--Menu de Arriba-->
+     <nav class="navbar bg-body-tertiary" >
+        <div class="container-fluid" style="background-color: rgb(172, 83, 255);">
+          <span class="navbar-brand mb-0 h1" style="color:white; padding: 15px; font-size: 30px;" >noWallapop</span>
+          <a href="../index.html"><button type="button" class="btn btn-primary btn-lg">Ir al Inicio</button></a>
+     </div></nav>
+
+    <!--Formulario de Inicio de Sesion-->
+     <div class="content">
+        <center><h3>Iniciar Sesión</h3><p> Y conoce una variedad de productos para ti</p>
+     <form class="login" id="login">   
+            <div class="input-group mb-3" style="width: 50%;">
+                <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: #C6C6C6;">Correo</span>
+                <input type="email" class="form-control" id="username" name="username" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+              </div>
+            <div class="input-group mb-3" style="width: 50%;">
+                <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: #C6C6C6;">Contraseña</span>
+                <input type="password" class="form-control" id="password" name="password" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+              </div>
+  
+              
+    <button type="submit" class="btn btn-primary btn-lg">Iniciar Sesión</button>
+    <div class="registro"><p>¿No tienes una cuenta en noWallapop? <a href="signup.html">Crea una cuenta gratis</a></p></div>
+       </center></form>
+    </div>
+    <script type="module" src="/vista/js/loginJS/index_li.js"></script>
+</body>
+ <!--Footer de la página-->
+ <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">🍔 noWallapop, hecho con algo de Bootstrap</p>
+    </footer>
+
+</html>
